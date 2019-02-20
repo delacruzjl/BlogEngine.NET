@@ -1,0 +1,9 @@
+version: '3.4'
+
+
+services:
+  blogengine.net:
+    image: jodelac/blogenginenet
+    build:
+      context: .\BlogEngine.NET
+      dockerfile: Dockerfile
