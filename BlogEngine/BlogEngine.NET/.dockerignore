@@ -1,5 +1,5 @@
 *
 !obj\Container\publish\*
 !obj\Container\empty\
-!App_Data\*
-!Custom\*
+!.\App_Data\
+!.\Custom\

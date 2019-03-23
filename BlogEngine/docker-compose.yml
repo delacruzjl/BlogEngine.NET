@@ -1,5 +1,8 @@
 version: '3.4'
 
+volumes:
+  appdata:
+  custom:
 
 services:
   blogengine.net:
@@ -7,3 +10,6 @@ services:
     build:
       context: .\BlogEngine.NET
       dockerfile: Dockerfile
+    volumes:
+      - appdata:C:\inetpub\wwwroot\App_Data
+      - custom:C:\inetpub\wwwroot\Custom
