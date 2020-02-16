@@ -3,23 +3,27 @@ Code regularly updated with security patches but there no plans to add new funct
 If you are looking for latest reincarnation in active development, please take a look at [Blogifier](https://github.com/blogifierdotnet/Blogifier) as modern cross-platform .NET Core alternative.
  
 
+<a href="https://blogengine.io/themes/" target="_blank">
+<img src="https://blogengine.io/files/images/themes/themes.jpg" alt="Download BlogEngine Themes">
+</a> &nbsp;
+
 <br>
 <br>
 
 <a href="https://blogengine.io/" target="_blank">
-<img src="https://blogengine.io/files/images/github/btn01.png" alt="Download BlogEngine Themes">
+<img src="https://blogengine.io/files/images/github/btn01.png" alt="BlogEngine Website">
 </a> &nbsp;
 <a href="https://blogengine.io/features/" target="_blank">
-<img src="https://blogengine.io/files/images/github/btn02.png" alt="Download BlogEngine Themes">
+<img src="https://blogengine.io/files/images/github/btn02.png" alt="BlogEgnien Features">
 </a> &nbsp;
 <a href="https://blogengine.io/themes/" target="_blank">
-<img src="https://blogengine.io/files/images/github/btn03.png" alt="Download BlogEngine Themes">
+<img src="https://blogengine.io/files/images/github/btn03.png" alt="BlogEngine Themes">
 </a> &nbsp;
 <a href="https://blogengine.io/docs/" target="_blank">
-<img src="https://blogengine.io/files/images/github/btn04.png" alt="Download BlogEngine Themes">
+<img src="https://blogengine.io/files/images/github/btn04.png" alt="BlogEngine Docs">
 </a> &nbsp;
 <a href="https://blogengine.io/donate/" target="_blank">
-<img src="https://blogengine.io/files/images/github/btn05.png" alt="Download BlogEngine Themes">
+<img src="https://blogengine.io/files/images/github/btn05.png" alt="BlogEngine Donate">
 </a>
 
 <br>
@@ -30,10 +34,6 @@ If you are looking for latest reincarnation in active development, please take a
 
 
 # Installation
-
-You can setup your BlogEngine with a single click!
-Take a look at the perfect [BlogEngine hosting solutions](https://www.a2hosting.com/blogengine-net-hosting).
-
 
 There are two download options for BlogEngine.NET:
 
@@ -64,6 +64,9 @@ Steps:
   3. Build and run solution to load website in the browser
   4. You can navigate to administration on: `http://localhost:64079/admin/`
   5. Username: `admin` Password `admin`
+
+### 3. Security Update
+After install, update `machineKey` in `Web.config` with values generated with tool [like this](https://www.allkeysgenerator.com/Random/ASP-Net-MachineKey-Generator.aspx). This will prevent known exploit (reported Sep 2019). This only effects if you use default `admin` account.
 
 # Screenshot
 More screenshots on the [website](https://blogengine.io).
